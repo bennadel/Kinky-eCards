@@ -1,0 +1,270 @@
+
+/* -- CONTENT ---------------------------------------------------------------------------------- */
+
+	body {
+		color: #262626 ;
+		font-family: verdana, arial, georgia ;
+		font-size: 62.5% ;
+		}
+		
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	form,
+	table,
+	p,
+	ul,
+	ol {
+		margin-bottom: 1.8em ;
+		margin-top: 0px ;
+		}
+		
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p,
+	ul,
+	ol {
+		font-size: 1.4em ;
+		line-height: 1.9em ;
+		}
+		
+	ul ul,
+	ul ol,
+	ol ol,
+	ol ul {
+		font-size: 100% ;
+		}	
+		
+	h1 {
+		font-size: 200% ;
+		margin-bottom: 1em ;
+		}
+		
+	h2 {
+		font-size: 150% ;
+		margin-bottom: 1em ;
+		}
+		
+	h3 {
+		font-size: 120% ;
+		margin-bottom: .4em ;
+		}
+		
+	a {
+		color: #262626 ;
+		}
+		
+	img {
+		border: 1px solid #262626 ;
+		}
+		
+
+/* -- META CONTENT ----------------------------------------------------------------------------- */
+
+	div.clearall {
+		clear: both ;
+		height: 1px ;
+		font-size: 1px ;
+		line-height: 1px ;
+		overflow: hidden ;
+		visibility: hidden ;
+		}
+
+	ul#ecard-options {
+		float: left ;
+		list-style-type: none ;
+		margin: 0px 0px 0px 0px ;
+		padding: 0px 0px 0px 0px ;
+		}
+		
+	ul#ecard-options li {
+		float: left ;
+		height: 270px ;
+		margin: 0px 2em 2em 0px ;
+		overflow: hidden ;
+		padding: 0px 0px 0px 0px ;
+		text-align: center ;
+		width: 211px ;
+		}
+		
+	ul#ecard-options a {
+		cursor: pointer ;
+		display: block ;
+		text-decoration: none ;
+		padding: 5px 5px 5px 5px ;
+		width: 201px ;
+		}
+		
+	ul#ecard-options a:hover {
+		background-color: #E0E0E0 ;
+		}
+		
+	ul#ecard-options img {
+		display: block ;
+		margin: 0px auto .5em auto ;
+		}
+		
+	ul#ecard-options span {
+		display: block ;
+		line-height: 1.5em ;
+		width: 200px ;
+		}
+		
+	form.data-form {}
+	
+	form.data-form br {
+		clear: both ;
+		}
+		
+	form.data-form div.data-item input,
+	form.data-form div.data-item textarea {
+		font-size: 1.6em ;
+		}
+		
+	form.data-form div.data-item {
+		clear: both ;
+		float: left ;
+		margin-bottom: 1em ;
+		}
+	
+	form.data-form div.data-item label {
+		float: left ;
+		font-size: 1.4em ;
+		font-weight: bold ;
+		margin-right: 15px ;
+		text-align: right ;
+		width: 150px ;
+		}
+		
+	form.data-form div.data-item input,
+	form.data-form div.data-item textarea {
+		float: left ;
+		width: 400px ;
+		}
+		
+	form.data-form div.data-item textarea {
+		height: 200px ;
+		}
+		
+	form.data-form div.buttons {
+		clear: both ;
+		font-size: 1.4em ;
+		margin-left: 165px ;
+		}
+		
+	div.form-errors {
+		color: #AA0000 ;
+		}
+		
+	div.form-errors h3 {}
+		
+	div.form-errors ul {
+		line-height: 1.4em ;
+		}
+		
+	div#ecard-display {
+		margin: 0px auto 0px auto ;
+		overflow: hidden ;
+		width: 709px ;	
+		}
+		
+	div#ecard-display div#ecard-graphic {
+		background-image: url( "../images/global/ecard_border.png" ) ;
+		background-position: left top ;
+		background-repeat: no-repeat ;
+		height: 593px ;
+		margin-bottom: 25px ;
+		position: relative ;
+		width: 709px ;
+		}
+		
+	div#ecard-display div#ecard-graphic img.graphic {
+		border-width: 0px 0px 0px 0px ;
+		display: block ;
+		height: 525px ;
+		left: 34px ;
+		position: absolute ;
+		top: 34px ;
+		width: 641px ;
+		z-index: 100 ;
+		}
+		
+	div#ecard-display div#ecard-graphic img.stamp {
+		border-width: 0px 0px 0px 0px ;
+		display: block ;
+		height: 64px ;
+		left: 611px ;
+		position: absolute ;
+		top: 487px ;
+		width: 56px ;
+		z-index: 200 ;
+		}
+		
+	div#ecard-display div#ecard-message {
+		margin: 0px auto 0px auto ;
+		width: 600px ;
+		}
+		
+	div#ecard-display div#ecard-message p.recipient {
+		background-image: url( "../images/global/to_text.gif" ) ;
+		background-position: left 50% ;
+		background-repeat: no-repeat ;
+		line-height: 2em ;
+		margin-bottom: .7em ;
+		padding-left: 90px ;
+		}
+		
+	div#ecard-display div#ecard-message p.sender {
+		background-image: url( "../images/global/from_text.gif" ) ;
+		background-position: left 50% ;
+		background-repeat: no-repeat ;
+		line-height: 2em ;
+		margin-bottom: 1.3em ;
+		padding-left: 90px ;
+		}
+		
+	div#ecard-display div#ecard-message p.message {
+		text-align: justify ;
+		}
+		
+	div#ecard-display p.send-note {
+		color: #999999 ;
+		padding-top: 50px ;
+		font-size: 90% ;
+		text-align: center ;
+		}
+		
+	div#ecard-display p.send-note a {
+		color: #999999 ;
+		}
+		
+	div#ecard-display p.send-note a:hover {
+		color: #262626 ;
+		}
+		
+/* -- SITE ------------------------------------------------------------------------------------- */
+
+	body {
+		margin: 20px 20px 20px 20px ;
+		padding: 0px 0px 0px 0px ;
+		}
+		
+	div#site-footer {
+		color: #999999 ;
+		clear: both ;
+		font-size: 80% ;
+		padding-top: 50px ;
+		}
+		
+	div#site-footer p {
+		margin-bottom: .2em ;
+		}
+		
+	div#site-footer a {
+		color: #999999 ;
+		}
